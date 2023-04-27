@@ -22,7 +22,6 @@ const App = () => {
   };
 
   const handleAddContact = newContact => {
-    console.log(newContact);
     setContacts(prevState => [...prevState, newContact]);
   };
 
